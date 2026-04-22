@@ -1,60 +1,40 @@
-# 🚀 Django CBV CRUD Project
+## 📸 Screenshots & Flow
 
-## 📌 About
+### 🟢 1. Company List Page
 
-This is a Django project built using **Class-Based Views (CBV)**.
-It performs full CRUD operations on Company data.
+* Displays all companies
+* Each company has **View, Update, Delete** options
 
----
-
-## ⚙️ Features
-
-* View all companies
-* View company details
-* Add new company
-* Update company
-* Delete company
+👉 Click on company name → opens **Detail Page**
 
 ---
 
-## 🛠️ Tech Used
+### 🔵 2. Company Detail Page
 
-* Python
-* Django
-* SQLite
-* HTML
+* Shows complete details of selected company
 
----
-
-## ▶️ Run Project
-
-```bash
-pip install django
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
-```
+👉 Click “Back” → returns to **List Page**
 
 ---
 
-## 🌐 URLs
+### 🟡 3. Create Company Page
 
-* `/list/` → List page
-* `/create/` → Add company
-* `/update/<id>/` → Update
-* `/delete/<id>/` → Delete
+* Form to add new company
 
----
-
-## 🎯 Learning
-
-* Learned Django CBV
-* Built full CRUD app
-* Worked with templates & URLs
+👉 Click “Submit” → saves data → redirects to **List Page**
 
 ---
 
-## 🙌 Author
+### 🟠 4. Update Company Page
 
-B YELLAPPA
+* Edit existing company details
 
+👉 Click “Update” → updates data → redirects to **List Page**
+
+---
+
+### 🔴 5. Delete Confirmation Page
+
+* Confirms before deleting
+
+👉 Click “Yes, Delete” → deletes record → redirects to **List Page**
