@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block body_block %}
+  <div align="center">
+    <h1>Company Insert/Update Form</h1>
+    <form method="post">
+      {{form.as_p}}
+      {% csrf_token %}
+      <input class="btn btn-primary" type="submit" value="Insert/Update Record">
+    </form>
+  </div>
+{% endblock %}
